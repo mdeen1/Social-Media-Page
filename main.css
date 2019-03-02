@@ -150,3 +150,64 @@ header .search-area ul li{
     #top-area .profile-info .user-details a:hover {
     	background: #2196F3;
     }
+
+    #content-area {
+    	background: #FAFAFA;
+    	overflow: auto;
+    	padding: 50px 0;
+    }
+
+    #content-area .side-column {
+    	float: left;
+    	width: 35%;
+    	margin: 0 2.5%;
+    	max-width: 380px;
+    }
+
+      #content-area .widget-box {
+    	padding: 15px;
+    	background: #fff;
+    	margin: 0 0 15px 0;
+    	border-radius: 3px;
+    	-webkit-box-shadow:  0px 2px 5px -1px rgba(138,138,138,1);
+		-moz-box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+		 box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+		 overflow: auto;
+    }
+
+    	#content-area .widget-box .head .widget-icon-container {
+    		display: inline-block;
+    	}
+
+    	#content-area .widget-box .head {
+
+    	}
+
+    	#content-area .widget-box .body {
+    		padding: 15px 0;
+    	}
+
+    #content-area .widget-box .head .widget-icon {
+    	background: #BFBFBF;
+    	height: 40px;
+    	width: 40px;
+    	color: #fff;
+    	border-radius: 50%;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    }
+    #content-area .widget-box .head .widget-icon .fas {
+    	max-width: 50%;  
+    	font-size: 22px;  }
+
+      #content-area .widget-box .head .widget-title {
+    	display: inline-block;
+    	padding: 0 0 0 10px;
+    }
+
+    #content-area .main-area {
+    	float: left;
+    	width: 55%;
+    	margin: 0 2.5%;
+    }

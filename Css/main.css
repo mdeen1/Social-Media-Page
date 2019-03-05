@@ -309,5 +309,43 @@ header .search-area ul li{
     	color: #ABABAB;
     }
 
+     #content-area .main-area .widget-box.post .body .post-img img {
+      width: 70%;
+     }
+
+    #content-area .main-area .widget-box.post .body .post-comments .user-img {
+      display: inline-block;
+      float: left;
+      width: 8%;
+      overflow: auto;
+     }
+
+      #content-area .main-area .widget-box.post .post-comments::after {
+      content: " ";
+      clear: both;
+      display: table;
+    }
+
+      #content-area .main-area .widget-box.post .body .post-comments .user-img img {
+      width: 40px;
+      border-radius: 50%;
+      float: left;
+      height: 40px;
+      
+     }
+
+      #content-area .main-area .widget-box.post .body .post-comments .user-comments {
+      display: inline-block;
+      float: left;
+      width: 92%;
+    }
+
+ 
+   #content-area .main-area .widget-box.post .body .post-form img {
+      width: 70%;
+      border-radius: 50%;
+     }
+
+
 
 

@@ -264,6 +264,10 @@ header .search-area ul li{
     	overflow: auto;
     }
 
+    #content-area .main-area .widget-box.post .head {
+      margin: 0 0 15px 0;
+    }
+
     #content-area .main-area .widget-box.post .head .user-img-container {
     	width: 8%;
     	display: inline-block;
@@ -309,11 +313,39 @@ header .search-area ul li{
     	color: #ABABAB;
     }
 
-     #content-area .main-area .widget-box.post .body .post-img img {
-      width: 70%;
+    #content-area .main-area .widget-box.post .body  {
+      padding: 0;
+      
      }
 
-     #content-area .main-area .widget-box.post .body .post-comments  {
+     #content-area .main-area .widget-box.post .body .post-img img {
+      width: 90%;
+      height: 950px;
+      
+     }
+
+      #content-area .main-area .widget-box.post .body .top-icons {
+      width: 100%;
+      padding: 10px 0;
+      color: #ABABAB;
+     }
+
+
+      #content-area .main-area .widget-box.post .body .top-icons .fa {
+      font-size: 20px;
+     }
+
+        #content-area .main-area .widget-box.post .body .top-icons .fa-thumbs-up {
+       margin-right: 15px;
+     }
+
+      #content-area .main-area .widget-box.post .body .top-icons span {
+      float: right;
+      display: inline-block;
+     }
+      
+
+     #content-area .main-area .widget-box.post .body  .post-comments  {
      background: #E0E0E0;
      margin-left: -15px;
      margin-right: -15px;
@@ -351,14 +383,18 @@ header .search-area ul li{
      #content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info {
       margin: 5px 0 10px 0;
     }
+      #content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info .time {
+      color: #ABABAB;
+      font-size: 10px;
+      float: right;
+    }
 
+    
     /* ----------------------- Post Info  -------------------------------------- */
 
      #content-area .main-area .widget-box.post .body .post-form  {
-     background: #E0E0E0;
-     margin-left: -15px;
-     margin-right: -15px;
-     padding: 15px;
+    
+     padding: 15px 0 0 0;
      }
 
     #content-area .main-area .widget-box.post .body .postforms .user-img {
@@ -383,9 +419,16 @@ header .search-area ul li{
      }
 
      #content-area .main-area .widget-box.post .body .post-form .form-info input {
-  
-      margin: 0 0 0 13px;
+      width: 80%;
+      border: 0 solid #fff;
+      font-size: 18px;
+     }
 
+     #content-area .main-area .widget-box.post .body .post-form .form-info input:focus {
+      width: 80%;
+      border: 0 solid #fff;
+      font-size: 18px;
+      outline: none;
      }
 
       #content-area .main-area .widget-box.post .body .post-form .form-info {
@@ -394,6 +437,7 @@ header .search-area ul li{
       width: 92%;
       font-size: 14px;
       padding: 10px 0;
+      border-bottom: 1px solid #ABABAB;
     }
 
      #content-area .main-area .widget-box.post .body .post-form .form-info .icons {
@@ -401,6 +445,13 @@ header .search-area ul li{
       float: right;
       
     }
+
+    #content-area .main-area .widget-box.post .body .post-form .form-info .icons .fa{
+      font-size: 20px;
+      margin: 0 15px 0 0;
+    }
+
+   
 
     
  
